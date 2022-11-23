@@ -94,18 +94,39 @@ body{
     padding: 7% 3%;
 }
 
+.skill-2{
+    width:70%;
+    text-align: justify;
+    padding: 7% 3%;
+    margin-left: 30%;
+}
+
+.main-heading{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 3rem;
+    color: #E4BB97;
+}
+
 .desc-skill{
-    margin-left: 35%;
+    margin-left: 25%;
 }
 
 .descriptions{
     padding: 0 1%;
+    color:#FEF5EF;
 }
 
 .skills-img{
     border-radius: 100%;
-    width:30%;
+    width:20%;
     float: left;
+    margin-top: -2.5%;
+}
+
+.skills-img-r{
+    border-radius: 100%;
+    width:30%;
+    float: right;
 }
 
 @media screen and (max-width:768px)
