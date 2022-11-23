@@ -28,36 +28,108 @@ body{
 
 .navbar-toggler{
     margin-right: 40px;
-    color: cyan;
+    color: #584B53;
+}
+
+.navbar{
+    background-color: #FEF5EF;
+}
+
+.navbar-collapse{
+    text-align: left;
+    margin-left: 10%;
 }
 
 /* banner section  */
-.banner-div{
-    width: 100%;
-    height: 600px;
+#banner{
     background-color: #FEF5EF;
-    padding: 7%;
 }
 
-.banner-text{
+.my-info{
+    padding: 5% 3%;
+}
+
+.banner-img{
     position: relative;
-    top: 30%;
-    left:22%;
-    width: 50%;
+    width: 100%;
+    height: auto;
+    top:15%;
 }
-.banner-heading{
-    font-family: 'Oleo Script', cursive;
+
+@media screen and (max-width: 768px) {
+    .banner-img{
+        padding: 2% 0;
+        top:5%;
+    }
+}
+.level-1-text{
+    font-family: 'Oleo Script',cursive;
     font-size: 5rem;
+    color: #584B53;
+    line-height: 1.2;
 }
 
-.banner-subheading{
+.subheading{
+    font-family: 'Bree Serif',serif;
     font-size: 1rem;
+    line-height: 1;
 }
 
+/* skills section  */
+
+#skills{
+    padding: 5% 5%;
+    background-color: #9D5C63;
+}
+
+.level-2-heading{
+    color:#D6E3F8;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.skill-1{
+    width:70%;
+    text-align: left;
+    padding: 7% 3%;
+}
+
+.desc-skill{
+    margin-left: 35%;
+}
+
+.descriptions{
+    padding: 0 1%;
+}
+
+.skills-img{
+    border-radius: 100%;
+    width:30%;
+    float: left;
+}
+
+@media screen and (max-width:768px)
+{
+    .skills-img{
+        float: none;
+        text-align: center;
+    }
+    .desc-skill{
+        margin: 0;
+        padding: 0;
+    }
+    .skill-1{
+        width: 100%;
+        text-align: center;
+    }
+    .descriptions{
+        padding: 0 4%;
+    }
+}
 /* footer section  */
 #footer{
     background-color: #584B53;
-    padding: 7% 5%;
+    padding: 5% 5% 2% 5%;
 }
 
 .footer-text{
@@ -99,3 +171,4 @@ body{
     2.
     3.
 */
+
