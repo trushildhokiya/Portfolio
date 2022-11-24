@@ -1,3 +1,13 @@
+#case-studies{
+    padding: 5% 4% 8% 4%;
+    background-color: #FEF5EF;
+}
+.container{
+    border: 4px solid grey;
+    padding: 5%;
+    background-color: white;
+    border-radius: 10px;
+}
 .icons{
     position: absolute;
     top: 47%;
@@ -17,3 +27,36 @@
     background-color: grey;
 }
 
+.title{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 3rem;
+    color: #584B53;
+    margin: 1% 0 3% 0;
+}
+
+.card{
+    margin-top: 4%;
+}
+
+.labels{
+    margin-top: 4%;
+    font-family: 'Oleo Script',cursive;
+    font-size: 3rem;
+}
+
+@media screen and (max-width:768px)
+{
+    .title{
+        font-size: 2rem;
+    }
+    .card{
+        margin-bottom: 5%;
+    }
+    .icons{
+        top:40%;
+        left:40%;
+    }
+    .labels{
+        font-size: 2rem;
+    }
+}
