@@ -50,8 +50,45 @@
     .description{
         font-size: 0.8rem;
     }
+
 }
 
 .full-img{
     width: 100%;
+}
+
+.description a{
+    color: rgb(98, 30, 255);
+}
+.ideation-img{
+    margin-top: 10%;
+}
+.carousel-img{
+    height: 400px;
+    width: auto;
+}
+
+.para{
+    margin-top: 20%;
+}
+
+@media screen and (max-width:768px){
+    .para{
+        margin-top: 0;
+    }
+}
+
+.spl-heading{
+    width:200%;
+    text-align: left;
+}
+
+.head{
+    margin-left: 4%;
+}
+
+@media screen and (max-width:768px){
+    .head{
+        margin-left: 11%;
+    }
 }
