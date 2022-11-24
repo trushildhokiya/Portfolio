@@ -1,0 +1,19 @@
+.icons{
+    position: absolute;
+    top: 47%;
+    left: 47%;
+}
+
+.real-icons{
+    color: gold;
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.8;
+    background-color: grey;
+}
+
