@@ -1,3 +1,57 @@
 .banners{
     padding: 5%;
 }
+#casestudy{
+    background-color: #FEF5EF;
+}
+.headings{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 3rem;
+    color:#9D5C63;
+    width: fit-content;
+    margin-left: 10%;
+}
+
+.description{
+    margin-left: 10%;;
+    width: 80%;
+    text-align: justify;
+    font-family: 'Bree Serif',serif;
+    font-size: 1rem;
+    color: #584B53;
+
+}
+
+.sub-headings{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 2rem;
+    color:#9D5C63;
+    width: fit-content;
+    margin-left: 10%;
+}
+.part{
+    margin: 7% 0;
+}
+
+.type-block{
+    margin: 7% 0;
+}
+
+.part2{
+    padding-top: 20%;
+}
+
+@media screen and (max-width:768px)
+{
+    .headings{
+        font-size: 2rem;
+        text-align: justify;
+    }
+    .description{
+        font-size: 0.8rem;
+    }
+}
+
+.full-img{
+    width: 100%;
+}
