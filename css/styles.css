@@ -111,8 +111,18 @@ body{
     margin-left: 25%;
 }
 
+.desc-skill-r{
+    margin-right: 30%;
+    width: 80%;
+}
+
 .descriptions{
     padding: 0 1%;
+    color:#FEF5EF;
+}
+
+.descriptions-r{
+    padding: 0% 1%;
     color:#FEF5EF;
 }
 
@@ -124,6 +134,8 @@ body{
 }
 
 .skills-img-r{
+    position: relative;
+    top:-30px;
     border-radius: 100%;
     width:30%;
     float: right;
@@ -132,6 +144,7 @@ body{
 @media screen and (max-width:768px)
 {
     .skills-img{
+        width:40%;
         float: none;
         text-align: center;
     }
@@ -145,6 +158,34 @@ body{
     }
     .descriptions{
         padding: 0 4%;
+        text-align: justify;
+    }
+}
+
+
+@media screen and (max-width:768px)
+{
+    .skills-img-r{
+        float:none;
+        width:60%;
+    }
+    .skill-2{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .desc-skill-r{
+        width: 100%;
+        ;
+    }
+    .descriptions-r{
+        text-align: justify;
+    }
+    .footer-icons{
+        text-align: center;
+    }
+    .social-sites{
+       margin-left: 20px;
     }
 }
 /* footer section  */
