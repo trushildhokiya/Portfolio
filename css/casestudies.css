@@ -63,6 +63,8 @@
 .ideation-img{
     margin-top: 10%;
 }
+
+
 .carousel-img{
     height: 400px;
     width: auto;
@@ -87,8 +89,50 @@
     margin-left: 4%;
 }
 
+
 @media screen and (max-width:768px){
     .head{
         margin-left: 11%;
     }
+    .spl-heading{
+        width:fit-content;
+    }
+}
+
+.usability-img{
+    margin-top: 20%;
+}
+
+@media screen and (min-width:768px) and (max-width:1189px){
+    .usability-img{
+        margin-top: 60%;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .mockup-img{
+        height: 200px;
+        width: auto;
+    }
+}
+.frames{
+    width: 100%;
+    height: 300px;
+}
+
+.arrow-icon{
+    float: right;
+}
+.link{
+    text-align: right;
+    margin-right: 30px;
+    color:#584B53;
+    font-family: 'Bree Serif',serif;
+    text-decoration: none;
+}
+
+.container-fluid{
+    background-color:#D6E3F8 ;
+    padding: 2%;
 }
