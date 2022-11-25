@@ -136,3 +136,8 @@
     background-color:#D6E3F8 ;
     padding: 2%;
 }
+
+.custom-carousel{
+    width: 80%;
+    height: auto;
+}
