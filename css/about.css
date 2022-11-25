@@ -34,3 +34,12 @@
     width: fit-content;
     margin-bottom: 30px;
 }
+
+.resume{
+    text-decoration: none;
+    color:black;
+}
+
+.resume:hover{
+    color:white;
+}
